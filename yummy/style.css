@@ -1,0 +1,346 @@
+body {
+    overflow-x: hidden !important;
+}
+
+nav {
+    position: fixed;
+}
+
+.navbar .navbar-brand span {
+    color: red;
+}
+
+.navbar li a.active {
+    border-bottom: 2px solid red;
+    margin-left: 80px;
+    color: #000;
+}
+
+.navbar li a {
+    border-bottom: 2px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid red;
+    color: #000 !important;
+}
+
+form button {
+    border-radius: 20px !important;
+}
+
+.p-t-5 {
+    margin-top: 20px;
+    background: #EEEEEE;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.button {
+    border-radius: 20px !important;
+    display: flex;
+    justify-content: start;
+    padding: 8px 20px !important;
+}
+
+.fw-normal span {
+    color: red;
+}
+
+.call-us {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    z-index: 22;
+}
+
+
+.call-us h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+}
+
+.img {
+    position: relative !important;
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.section-bg {
+    background-color: #eee;
+}
+
+section {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+
+.why-us .why-box {
+    height: 120%;
+    padding: 30px;
+    background: #ce1212;
+    color: #fff;
+}
+
+.why-us .why-box .more-btn {
+    display: inline-block;
+    background: #ffffff4d;
+    padding: 6px 30px 8px;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all ease-in-out 0.4s;
+}
+
+.why-us .icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #37373f1a;
+    transition: 0.3s;
+}
+
+.why-us .icon-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.why-us .icon-box p {
+    font-size: 15px;
+    color: #6c757d;
+}
+
+.why-us .icon-box:hover {
+    transform: scale(1.1);
+}
+
+.why-us .icon-box i {
+    color: #ce1212;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: #ce12121a;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+
+.stats-counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.stats-counter .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff99;
+}
+
+.stats-counter .stats-item span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu .nav-link.active {
+    color: #ce1212 !important;
+    border-color: #ce1212 !important;
+}
+
+.menu .nav-link {
+    border: none !important;
+    margin: 0 10px;
+    padding: 10px 5px;
+    transition: .5s;
+    color: #37373f;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid #b6b6bf !important;
+}
+
+.menu .nav-link:hover {
+    color: #ce1212;
+    border-color: #DEE2E6 !important;
+}
+
+.menu .nav-link h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.card {
+    margin: 0 10px !important;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-img-top {
+    display: flex;
+    justify-content: center;
+    width: 70%  !important;
+}
+
+
+
+.chefs .chef-member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff !;
+    box-shadow: 0px 0 30px #37373f14;
+    transition: 0.3s;
+}
+
+.chefs .chef-member .member-info {
+    padding: 10px 15px 20px 15px;
+}
+
+.chefs .chef-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37373f;
+}
+
+.chefs .chef-member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #21252966;
+}
+
+.chefs .chef-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #212529b3;
+}
+
+.chefs .chef-member:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+}
+
+.book-a-table .reservation-form-bg {
+    background: #37373f0a;
+}
+
+.book-a-table .php-email-form {
+    padding: 40px;
+}
+
+.book-a-table .php-email-form button[type=submit] {
+    background: #ce1212;
+    border: 0;
+    padding: 14px 60px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 60px;
+}
+
+.book-a-table .php-email-form button[type=submit]:hover {
+    background: #ec2727;
+}
+
+.book-a-table .reservation-img {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+
+.contact .info-item {
+    background: #f4f4f4;
+    padding: 30px;
+    height: 100%;
+}
+
+.contact .info-item .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 0;
+    color: #fff;
+    background: #ce1212;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0 0 30px #00000014;
+}
+
+.contact .php-email-form input {
+    height: 48px;
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 20px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #ce1212;
+    border: 0;
+    padding: 12px 40px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
